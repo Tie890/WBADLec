@@ -32,5 +32,5 @@ function simpan() {
   localStorage.setItem("riwayatPemesanan", JSON.stringify(riwayat));
 
   alert("Pemesanan disimpan!");
-  window.location.href = "../riwayat/riwayat.html";
+  window.location.href = "riwayat.html";
 }
