@@ -30,5 +30,5 @@ function lanjutFormulir() {
   }
 
   sessionStorage.setItem("selectedCars", JSON.stringify(data));
-  window.location.href = "../form/form.html";
+  window.location.href = "form.html";
 }
