@@ -19,5 +19,5 @@ function lanjutRingkasan() {
   }
 
   sessionStorage.setItem("dataPelanggan", JSON.stringify({ nama, mobil }));
-  window.location.href = "../ringkasan/ringkasan.html";
+  window.location.href = "ringkasan.html";
 }
