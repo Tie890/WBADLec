@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daftar Mobil</title>
+  <link rel="stylesheet" href="mobil.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Daftar Mobil Tersedia</h1>
+
+    <form id="mobil-form" class="mobil-list">
+
+      <div class="mobil-card">
+        <img src="../BinguoThumbnail.jpg" alt="">
+        <h2>Toyota Avanza</h2>
+        <p class="harga">Rp 500.000 / hari</p>
+        <label><input type="checkbox" class="pilih" value="Toyota Avanza" data-harga="500000"> Pilih Mobil</label>
+        <label>Tanggal Mulai Sewa:<br>
+          <input type="date" class="tanggal">
+        </label>
+        <label>Durasi (hari):<br>
+          <input type="number" class="durasi" min="1" value="">
+        </label>
+      </div>
+
+      <div class="mobil-card">
+        <img src="../BinguoThumbnail.jpg" alt="">
+        <h2>Toyota Kijang Innova</h2>
+        <p class="harga">Rp 700.000 / hari</p>
+        <label><input type="checkbox" class="pilih" value="Toyota Kijang Innova" data-harga="700000"> Pilih Mobil</label>
+        <label>Tanggal Mulai Sewa:<br>
+          <input type="date" class="tanggal">
+        </label>
+        <label>Durasi (hari):<br>
+          <input type="number" class="durasi" min="1" value="">
+        </label>
+      </div>
+
+      <div class="mobil-card">
+        <img src="../BinguoThumbnail.jpg" alt="">
+        <h2>Honda HRV</h2>
+        <p class="harga">Rp 600.000 / hari</p>
+        <label><input type="checkbox" class="pilih" value="Honda HRV" data-harga="600000"> Pilih Mobil</label>
+        <label>Tanggal Mulai Sewa:<br>
+          <input type="date" class="tanggal">
+        </label>
+        <label>Durasi (hari):<br>
+          <input type="number" class="durasi" min="1" value="">
+        </label>
+      </div>
+
+      <div class="mobil-card">
+        <img src="../BinguoThumbnail.jpg" alt="">
+        <h2>Daihatsu Sigra</h2>
+        <p class="harga">Rp 450.000 / hari</p>
+        <label><input type="checkbox" class="pilih" value="Daihatsu Sigra" data-harga="450000"> Pilih Mobil</label>
+        <label>Tanggal Mulai Sewa:<br>
+          <input type="date" class="tanggal">
+        </label>
+        <label>Durasi (hari):<br>
+          <input type="number" class="durasi" min="1" value="">
+        </label>
+      </div>
+
+    </form>
+
+    <button onclick="lanjutFormulir()">Lanjut ke Formulir Pelanggan</button>
+  </div>
+
+  <script src="mobil.js"></script>
+</body>
+</html>
